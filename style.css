@@ -42,8 +42,26 @@
       
     }
 
-    img{
-      border-radius: 50%;
+    div img{
+      float: left;
+      margin-left: 10px ;
+      padding: 10px;
+      background-color: #522B47;
+    }
+
+    div h4{
+     max-width: 340px;
+     margin-left: 380px;
+     font-size: 33px;
       
-      margin-left: 45%;
+    }
+
+    div#nofloat{
+      margin-top: 100px;
+
+    }
+
+    ul#impar li:nth-child(odd){
+      background-color: rgb(134, 5, 5);
+      
     }
